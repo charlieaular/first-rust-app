@@ -1,0 +1,23 @@
+@apiUrl = http://localhost:8080/api
+
+###
+GET {{apiUrl}}/version
+Content-Type: application/json
+
+###
+GET {{apiUrl}}/playlists
+Content-Type: application/json
+
+###
+GET {{apiUrl}}/playlists/0
+Content-Type: application/json
+
+
+###
+POST {{apiUrl}}/playlists
+Content-Type: application/json
+
+{
+  "name": "nueva"
+}
+
